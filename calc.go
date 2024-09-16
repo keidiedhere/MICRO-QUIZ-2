@@ -19,13 +19,13 @@ func main() {
 
 	switch operasi_hitung {
 		case "+":
-			fmt.Printf("%.3f %s %.3f = %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 + angka_2)
+			fmt.Printf("%.3f %s %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 + angka_2)
 		case "-":
-			fmt.Printf("%.3f %s %.3f = %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 - angka_2)
+			fmt.Printf("%.3f %s %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 - angka_2)
 		case "*":
-			fmt.Printf("%.3f %s %.3f = %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 * angka_2)
+			fmt.Printf("%.3f %s %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 * angka_2)
 		case "/":
-			fmt.Printf("%.3f %s %.3f = %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 / angka_2)
+			fmt.Printf("%.3f %s %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1 / angka_2)
 	
 		default: 
 		        fmt.Println("Kalkulator tidak mengerti input user")
