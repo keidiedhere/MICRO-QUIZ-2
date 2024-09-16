@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 
-func main () {
+func main() {
 	var operasi_hitung string
 	var angka_1, angka_2 float64
 	
@@ -29,15 +29,5 @@ func main () {
 	
 		default: 
 		        fmt.Println("Kalkulator tidak mengerti input user")
-	}
-
-	fmt.Printf("%d %s %d = %d", angka_1, operasi_hitung, angka_2, output)
-
-
-	
-
-
-
-
-
+	}	
 }
