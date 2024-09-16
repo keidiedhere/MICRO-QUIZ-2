@@ -25,7 +25,7 @@ func main() {
 		if angka_2 == 0.0 {
 			fmt.Println("pembagian dengan nol, undefined")
 		} else {
-			fmt.Printf("%.3f %s %.3f = %.3f", angka_1, operasi_hitung, angka_2, angka_1/angka_2)
+			fmt.Printf("%.2f %s %.2f = %.3f", angka_1, operasi_hitung, angka_2, angka_1/angka_2)
 		}
 	default:
 		fmt.Println("kalkulator tidak dapat mengerti input user")
